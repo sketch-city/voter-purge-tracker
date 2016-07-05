@@ -2,7 +2,7 @@
   "name": "voter-purge-tracker",
   "version": "0.1.0",
   "description": "Tracking voters who have been purged from the voter rolls in Harris County.",
-  "main": "server.js",
+  "main": "app/server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sketch-city/voter-purge-tracker.git"
@@ -17,6 +17,7 @@
     "csvtojson": "^1.0.0",
     "express": "^4.14.0",
     "knex": "^0.11.7",
+    "lodash": "^4.13.1",
     "pg": "^6.0.1",
     "request": "^2.72.0"
   }
